@@ -8,37 +8,37 @@ export function Schema() {
             <table className="w-full">
                 <thead>
                     <tr className="even:bg-muted m-0 p-0">
-                        <th className="border-b-1 shadow-[0_1px_2px_var(--color-shadow)] px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
+                        <th className="border-b-1 px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
                         ID
                         </th>
-                        <th className="border-b-1 shadow-[0_1px_2px_var(--color-shadow)] px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
+                        <th className="border-b-1 px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
                         Дата регистрации
                         </th>
-                        <th className="border-b-1 shadow-[0_1px_2px_var(--color-shadow)] px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
+                        <th className="border-b-1 px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
                         Страна
                         </th>
-                        <th className="border-b-1 shadow-[0_1px_2px_var(--color-shadow)] px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
+                        <th className="border-b-1 px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
                         e-mail
                         </th>
-                        <th className="border-b-1 shadow-[0_1px_2px_var(--color-shadow)] px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
+                        <th className="border-b-1 px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
                         Full name
                         </th>
-                        <th className="border-b-1 shadow-[0_1px_2px_var(--color-shadow)] px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
+                        <th className="border-b-1 px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
                         Challenges
                         </th>
-                        <th className="border-b-1 shadow-[0_1px_2px_var(--color-shadow)] px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
+                        <th className="border-b-1 px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
                         Tasks
                         </th>
-                        <th className="border-b-1 shadow-[0_1px_2px_var(--color-shadow)] px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
+                        <th className="border-b-1 px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
                         Coins
                         </th>
-                        <th className="border-b-1 shadow-[0_1px_2px_var(--color-shadow)] px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
+                        <th className="border-b-1 px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
                         Completed
                         </th>
-                        <th className="border-b-1 shadow-[0_1px_2px_var(--color-shadow)] px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
+                        <th className="border-b-1 px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
                         Position
                         </th>
-                        <th className="border-b-1 shadow-[0_1px_2px_var(--color-shadow)] px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
+                        <th className="border-b-1 px-4 py-2 text-left font-bold [&[align=center]]:text-center [&[align=right]]:text-right">
                         Edit
                         </th>
 

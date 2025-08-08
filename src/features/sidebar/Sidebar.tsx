@@ -11,8 +11,8 @@ export function Sidebar() {
   ]
 
   return (
-    <section className="bg-white shadow-md">
-        <div  className="w-[300px] border-r-1 h-screen pt-12 pl-12">
+    <section className="bg-white shadow-md flex flex-col min-h-200 border-red-500">
+        <div  className="w-[300px] border-r-1 pt-12 pl-12">
             {categories.map((cat, idx) => (
               <div key={idx} className="flex flex-col items-start ">
                 <div className="flex items-center flex-row mb-[30px]">
