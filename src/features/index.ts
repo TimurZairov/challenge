@@ -1,0 +1,5 @@
+export * from './mainPage/MainPage'
+export * from './login/Login'
+export * from './sidebar/Sidebar'
+export * from './hero/Hero'
+export * from './table/Table'
