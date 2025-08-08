@@ -1,5 +1,6 @@
 import { calendar, search } from "../../assets/svg";
 import { Button } from "../../shared/components/ui/button";
+import { Schema } from "../schema/Schema";
 
 
 export function Table() {
@@ -15,7 +16,7 @@ export function Table() {
                 <Button className="w-[185px] h-[33px] hover:bg-gray shadow-xs hover:shadow-md cursor-pointer text-dark-gray border-1 border-gray bg-light-gray transition-colors duration-300 ease-in-out"><img src={calendar} alt='#' className="w-[15px] "/>Выберите дату</Button>
             </div>
             <div>
-                
+                <Schema/>
             </div>
         </div>
     </div>

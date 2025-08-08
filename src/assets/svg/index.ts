@@ -20,3 +20,7 @@ import search from './search.svg'
 export {search}
 import calendar from './calendar.svg'
 export {calendar}
+import editButton from './editButton.svg'
+export {editButton}
+import toTrashButton from './toTrashButton.svg'
+export {toTrashButton}
