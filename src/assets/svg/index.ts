@@ -24,3 +24,7 @@ import editButton from './editButton.svg'
 export {editButton}
 import toTrashButton from './toTrashButton.svg'
 export {toTrashButton}
+import cube from './cube.svg'
+export {cube}
+import check from './check.svg'
+export { check }

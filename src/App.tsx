@@ -5,6 +5,7 @@ import { MainPage } from './pages/mainPage/MainPage';
 import { queryClient } from './config/queryClient/queryClient';
 
 
+
 function App() {
   return (
       <QueryClientProvider client={queryClient}>
