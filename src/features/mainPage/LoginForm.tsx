@@ -1,6 +1,6 @@
 import { Button } from "../../shared/components/ui/button";
 
-export function Login() {
+export function LoginForm() {
   return (
     <div className="h-105 w-105 bg-white rounded-[10px] shadow-[0_4px_20px_var(--color-shadow)] flex flex-col items-start">
         <div className="w-full py-[27px] pl-[17px] ">

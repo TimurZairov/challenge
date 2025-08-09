@@ -1,12 +1,13 @@
-import { MainPage } from "./features"
-// import { Admin } from "./pages/admin/Admin" 
+// import { MainPage } from "./pages/mainPage/MainPage"
+
+import { UsersPage } from "./pages/usersPage"
 
 
 function App() {
   return (
     <>
-      {/* <Admin/> */}
-      <MainPage/>
+      {/* <MainPage/> */}
+      <UsersPage/>
     </>
   )
 }

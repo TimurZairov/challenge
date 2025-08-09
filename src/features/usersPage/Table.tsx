@@ -1,6 +1,6 @@
 import { calendar, search } from "../../assets/svg";
 import { Button } from "../../shared/components/ui/button";
-import { Schema } from "../schema/Schema";
+import { Schema } from "./Schema";
 
 
 export function Table() {
