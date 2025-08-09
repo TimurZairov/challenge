@@ -3,10 +3,10 @@ import { Hero, Sidebar, Table } from "../../features";
 
 export function Admin() {
   return (
-    <section className="bg-light-gray">
+    <section className="" >
         <Hero/>
         <div className="flex flex-row">
-            <Sidebar/>
+            <Sidebar />
             <Table />
         </div>
     </section>

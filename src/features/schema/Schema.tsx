@@ -197,6 +197,158 @@ export function Schema() {
                         </div>
                         </td>
                     </tr>
+                    <tr className="even:bg-muted m-0 p-0">
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        10204566
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        20/06/20205
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        Узбекистан
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        test@test.com
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        Tima Zairov
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        200
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        200
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        1400
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        187
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        1
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        <div className="flex justify-between">
+                            <img src={editButton} alt="#" />
+                            <img src={toTrashButton} alt="#" />
+                        </div>
+                        </td>
+                    </tr>
+                    <tr className="even:bg-muted m-0 p-0">
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        10204566
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        20/06/20205
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        Узбекистан
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        test@test.com
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        Tima Zairov
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        200
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        200
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        1400
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        187
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        1
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        <div className="flex justify-between">
+                            <img src={editButton} alt="#" />
+                            <img src={toTrashButton} alt="#" />
+                        </div>
+                        </td>
+                    </tr>
+                    <tr className="even:bg-muted m-0 p-0">
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        10204566
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        20/06/20205
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        Узбекистан
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        test@test.com
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        Tima Zairov
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        200
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        200
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        1400
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        187
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        1
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        <div className="flex justify-between">
+                            <img src={editButton} alt="#" />
+                            <img src={toTrashButton} alt="#" />
+                        </div>
+                        </td>
+                    </tr>
+                    <tr className="even:bg-muted m-0 p-0">
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        10204566
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        20/06/20205
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        Узбекистан
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        test@test.com
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        Tima Zairov
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        200
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        200
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        1400
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        187
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        1
+                        </td>
+                        <td className="border-b px-4 py-2 text-left [&[align=center]]:text-center [&[align=right]]:text-right">
+                        <div className="flex justify-between">
+                            <img src={editButton} alt="#" />
+                            <img src={toTrashButton} alt="#" />
+                        </div>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
         </div>
