@@ -1,31 +1,40 @@
-import { Button } from "../../shared/components/ui/button";
-
-
+import { Button } from '../../shared/components/ui/button';
 
 export function Profile() {
-
   return (
-    <div className="bg-black/70 w-full h-full relative flex items-center justify-center">
-      <div className="w-[735px] h-[685px] bg-white rounded-[10px] flex flex-col ">
-          <div className="h-[71px] p-[29px]">
-            <span className="font-medium text-[14px] border-b-4 border-blue pb-[18px] my-[27px] mx-[29px]">Профиль</span>
-          </div>
-          <div className="border-y-1 border-gray h-full px-[29px] pt-[29px] flex justify-between ">
-            <div className="flex flex-col items-start">
-              <span className="mb-[10px] font-medium text-dark-gray">Challenge name</span>
-              <input type="text" className="h-10 rounded-[6px] bg-light-gray border-1 border-g p-3 focus:shadow-sm "/>
+    <div className="relative flex h-full w-full items-center justify-center bg-black/70">
+      <div className="flex h-[685px] w-[735px] flex-col rounded-[10px] bg-white">
+        <div className="h-[71px] p-[29px]">
+          <span className="border-blue mx-[29px] my-[27px] border-b-4 pb-[18px] text-[14px] font-medium">
+            Профиль
+          </span>
+        </div>
+
+        <div className="flex h-full flex-col items-start border-black">
+          <div className="border-gray flex h-full justify-end gap-[17px] border-y-1 px-[29px] pt-[29px]">
+            <div className="flex flex-1 flex-col items-start">
+              <span className="text-3 text-dark-gray mb-[10px] font-medium">Challenge name</span>
+              <input
+                type="text"
+                className="bg-light-gray border-g h-10 w-full rounded-[6px] border-1 p-3 focus:shadow-sm"
+              />
             </div>
-            <div className="flex flex-col items-start">
-              <span className="mb-[10px] font-medium text-dark-gray">Exp/coins</span>
-              <input type="text" className="h-10 rounded-[6px] bg-light-gray border-1 border-g p-3 focus:shadow-sm "/>
+            <div className="flex flex-1 flex-col items-start">
+              <span className="text-3 text-dark-gray mb-[10px] font-medium">Exp/coins</span>
+              <input
+                type="text"
+                className="bg-light-gray border-g h-10 w-full rounded-[6px] border-1 p-3 focus:shadow-sm"
+              />
             </div>
           </div>
-          <div className="h-[95px] flex items-center justify-end px-[29px]">
-            <Button className="w-40 h-[40px] bg-yellow cursor-pointer hover:bg-amber-300 shadow-md hover:shadow-lg ">
-              <span className="font-bold text-[15px] text-dark-blue">Создать</span>
+
+          <div className="flex h-[95px] items-center justify-end px-[29px]">
+            <Button className="bg-yellow h-[40px] w-40 cursor-pointer shadow-md hover:bg-amber-300 hover:shadow-lg">
+              <span className="text-dark-blue text-[15px] font-bold">Создать</span>
             </Button>
           </div>
+        </div>
       </div>
     </div>
-  )
+  );
 }

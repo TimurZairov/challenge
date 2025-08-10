@@ -1,17 +1,21 @@
-import {type AxiosRequestConfig } from 'axios';
+import { type AxiosRequestConfig } from 'axios';
 
-import api from './api.interceptors';
+import { instance } from './api.interceptors';
 
 class ApiClient {
-  private client = api;
+  private client = instance;
 
-  async get<T>(url: string, params?: Record<string, never>, config?: AxiosRequestConfig): Promise<T> {
+  async get<T>(
+    url: string,
+    params?: Record<string, never>,
+    config?: AxiosRequestConfig,
+  ): Promise<T> {
     const response = await this.client.get<T>(url, { params, ...config });
     return response.data;
   }
 
   async post<T, D>(url: string, data: D, config?: AxiosRequestConfig): Promise<T> {
-    console.log(url, data, "POSTPOSTPOST", config)
+    console.log(url, data, 'POSTPOSTPOST', config);
     const response = await this.client.post<T>(url, data, config);
     return response.data;
   }

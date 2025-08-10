@@ -1,9 +1,9 @@
-export const errorCatch = (error: any): string => {
- const message = error?.response?.data?.message
+import { AxiosError } from 'axios';
 
- return message
-  ? typeof error.response.data.message === 'object'
-   ? message[0]
-   : message
-  : error.message
-}
+export const errorCatch = (error: unknown): string => {
+  const err = error as AxiosError<{ message: string | string[] }>;
+
+  const message = err.response?.data?.message;
+
+  return message ? (Array.isArray(message) ? message[0] : message) : err.message;
+};
