@@ -9,7 +9,7 @@ export function LoginForm() {
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  console.log(email, password);
+
   const login = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     handleLogin.mutateAsync({
@@ -45,7 +45,7 @@ export function LoginForm() {
             <Checkbox />
             <p className="text-dark-gray ml-1 text-[12px] font-medium">Запомнить меня</p>
           </div>
-          <div className="mb-[25px] flex items-center justify-center">
+          <div className="mb-[25px] flex w-full items-center justify-center">
             <Button className="bg-yellow flex h-[42px] w-[129px] cursor-pointer items-center justify-center rounded-[10px] shadow-[0_1px_5px_rgba(0,0,0,0.25)] transition-colors duration-300 ease-in-out hover:border-1 hover:bg-yellow-400">
               <span className="text-15px font-bold text-black">Войти</span>
             </Button>

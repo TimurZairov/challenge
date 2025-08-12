@@ -1,5 +1,5 @@
-@import "tailwindcss";
-@import "tw-animate-css";
+@import 'tailwindcss';
+@import 'tw-animate-css';
 
 @custom-variant dark (&:is(.dark *));
 
@@ -90,10 +90,11 @@
   --color-custom-light-bg: oklch(0.5213 0.1978 278.03);
   --color-custom-dark-bg: oklch(0.5165 0.1992 278.14);
   --color-white: oklch(1 0 0);
-  --color-black: oklch(0.2562 0 0 );
+  --color-black: oklch(0.2562 0 0);
   --color-shadow: oklch(0.2562 0 0 / 0.25);
-  --color-dark-blue: oklch(0.2301 0.096 267.62 );
+  --color-dark-blue: oklch(0.2301 0.096 267.62);
   --color-blue: oklch(0.5284 0.2353 263.91);
+  --color-skyblue: oklch(0.8071 0.1164 226.86);
   --color-yellow: oklch(0.8369 0.1685 82.41);
   --color-light-gray: oklch(0.9881 0 0);
   --color-gray: oklch(0.928 0 0);
@@ -140,6 +141,6 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground w-full h-full pb-0 m-0 ;
+    @apply bg-background text-foreground m-0 h-full w-full pb-0;
   }
 }
