@@ -1,2 +1,3 @@
-import background from './background.webp'
-export { background }
+import background from './background.webp';
+
+export { background };
